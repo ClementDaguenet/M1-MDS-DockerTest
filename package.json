@@ -1,0 +1,30 @@
+{
+  "name": "dockertest",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ClementDaguenet/M1-MDS-DockerTest#readme",
+  "bugs": {
+    "url": "https://github.com/ClementDaguenet/M1-MDS-DockerTest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClementDaguenet/M1-MDS-DockerTest.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "npx eslint index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0"
+  }
+}
